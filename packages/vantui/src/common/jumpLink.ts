@@ -1,4 +1,5 @@
-import { getCurrentPages, redirectTo, reLaunch, navigateTo } from '@tarojs/taro'
+import { redirectTo, reLaunch, navigateTo } from '@tarojs/taro'
+import { getCurrentPages } from './utils'
 export function jumpLink(
   url: string,
   linkType?: 'navigateTo' | 'reLaunch' | 'redirectTo',

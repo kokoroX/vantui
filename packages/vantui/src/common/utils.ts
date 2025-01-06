@@ -101,7 +101,12 @@ export function toPromise(promiseLike: any) {
   }
   return Promise.resolve(promiseLike)
 }
+export function getCurrentPages() {
+  if (!Taro.getCurrentPages) return []
+  return Taro.getCurrentPages()
+}
 export function getCurrentPage() {
+  if (!Taro.getCurrentPages) return null
   const pages = Taro.getCurrentPages()
   return pages[pages.length - 1]
 }

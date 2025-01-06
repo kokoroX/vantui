@@ -1,4 +1,4 @@
-import { navigateBack, reLaunch, getCurrentPages } from '@tarojs/taro'
+import { navigateBack, reLaunch } from '@tarojs/taro'
 import { useState, useEffect, useCallback, useMemo } from 'react'
 import { View } from '@tarojs/components'
 import * as utils from '../wxs/utils'
@@ -6,6 +6,7 @@ import { Icon } from '../icon'
 import {
   getSystemInfoSync,
   getMenuButtonBoundingClientRect,
+  getCurrentPages,
 } from '../common/utils'
 import { MiniNavBarProps } from '../../types/mini-nav-bar'
 import * as computed from './wxs'

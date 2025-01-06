@@ -1,8 +1,4 @@
-import {
-  getCurrentPages,
-  createIntersectionObserver,
-  nextTick,
-} from '@tarojs/taro'
+import { nextTick } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
 import {
   useState,
@@ -14,6 +10,7 @@ import {
 } from 'react'
 import { Loading } from '../loading'
 import { InfiniteScrollProps, InfiniteScrollInstance } from '../../types/index'
+import { createContentObserver } from '../utils'
 
 const clsPrefix = `van-infinite-scroll`
 type IStatus = 'loading' | 'complete' | 'error'
@@ -107,15 +104,7 @@ function InfiniteScroll_(
       if (process.env.TARO_ENV === 'h5') {
         return initObserveH5()
       }
-      const pages: any = getCurrentPages()
-      const curePage = pages[pages.length - 1]
-      let _createIntersectionObserver = curePage.createIntersectionObserver
-
-      if (process.env.TARO_ENV === 'alipay') {
-        _createIntersectionObserver = createIntersectionObserver
-      }
-
-      const contentObserver_ = _createIntersectionObserver({
+      const contentObserver_ = createContentObserver({
         thresholds: [0.6],
       })
       contentObserver.current = contentObserver_

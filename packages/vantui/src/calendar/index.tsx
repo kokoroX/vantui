@@ -9,17 +9,14 @@ import {
   useImperativeHandle,
   useMemo,
 } from 'react'
-import {
-  getCurrentPages,
-  createIntersectionObserver,
-  nextTick,
-} from '@tarojs/taro'
+import { nextTick } from '@tarojs/taro'
 import * as utils from '../wxs/utils'
 import Toast from '../toast/index'
 import { requestAnimationFrame } from '../common/utils'
 import VanPopup from '../popup/index'
 import VanButton from '../button/index'
 import { CalendarProps, ICalendarInstance } from '../../types/calendar'
+import { createContentObserver } from '../utils'
 import {
   ROW_HEIGHT,
   getPrevDay,
@@ -252,20 +249,11 @@ function Index(
       if (contentObserver.current != null) {
         contentObserver.current.disconnect()
       }
-      const pages: any = getCurrentPages()
-      const curePage = pages[pages.length - 1]
-      let _createIntersectionObserver = curePage.createIntersectionObserver
-
-      if (process.env.TARO_ENV === 'alipay') {
-        _createIntersectionObserver = createIntersectionObserver
-      }
-
-      const contentObserver_ = _createIntersectionObserver({
+      contentObserver.current = createContentObserver({
         thresholds: [0.6, 1],
         observeAll: true,
-        selectAll: true,
+        // selectAll: true,
       })
-      contentObserver.current = contentObserver_
       contentObserver.current.relativeTo(`.van-calendar__body${compIndex}`)
       contentObserver.current.observe('.month', (res: any) => {
         if (res.intersectionRatio) {

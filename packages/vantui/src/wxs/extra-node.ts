@@ -1,6 +1,6 @@
-import Taro from '@tarojs/taro'
 import { render, unmountComponentAtNode } from '@tarojs/react'
 import { document } from '@tarojs/runtime'
+import { getCurrentPages } from '../common/utils'
 
 export type ExtraNode = {
   renderNode?: (node: JSX.Element | React.ReactNode) => void
@@ -16,7 +16,7 @@ export function createExtraNode(): ExtraNode {
         removeNode()
       }, 10 * 16.66)
     }
-    const currentPages = Taro.getCurrentPages()
+    const currentPages = getCurrentPages()
     const currentPage = currentPages.length
       ? currentPages[currentPages.length - 1]
       : null
@@ -31,7 +31,7 @@ export function createExtraNode(): ExtraNode {
   }
 
   const removeNode = () => {
-    const currentPages = Taro.getCurrentPages()
+    const currentPages = getCurrentPages()
     const currentPage = currentPages.length
       ? currentPages[currentPages.length - 1]
       : null
@@ -44,7 +44,7 @@ export function createExtraNode(): ExtraNode {
       try {
         pageElement?.removeChild?.(rView)
       } catch (err) {
-        console.info(`@antmjs/vantui: 
+        console.info(`@antmjs/vantui:
         Does not support the execution of a purely imperative component cleanup method when the component is destroyed`)
       }
       unmountComponentAtNode(rView)

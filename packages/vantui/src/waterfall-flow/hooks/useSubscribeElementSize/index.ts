@@ -1,7 +1,8 @@
 import { useRef } from 'react'
-import Taro, { createIntersectionObserver } from '@tarojs/taro'
+import Taro from '@tarojs/taro'
 import { Size } from '../../utils/element'
 import { usePersistFn } from '../usePersistFn'
+import { createContentObserver } from '../../../utils'
 import { useDepsTimeout } from './../useTimeout/useDepsTimeout'
 
 const threshold = [...new Array(100)].map((_, idx) => idx / 100)
@@ -76,12 +77,7 @@ export const useSubscribeElementSize = (
       return initObserveH5()
     }
     // eslint-disable-next-line no-underscore-dangle
-    let createObserver = Taro.createIntersectionObserver!
-
-    if (process.env.TARO_ENV === 'alipay') {
-      createObserver = createIntersectionObserver!
-    }
-    observerRef.current = createObserver(Taro.getCurrentInstance().page!, {
+    observerRef.current = createContentObserver({
       thresholds: threshold,
       observeAll: true,
     })

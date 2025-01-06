@@ -1,6 +1,12 @@
 import type ANTMUI from '../../types/normal'
 import { useCallback, useRef, useState } from 'react'
-import { nextTick, createSelectorQuery, SelectorQuery } from '@tarojs/taro'
+import {
+  nextTick,
+  createSelectorQuery,
+  SelectorQuery,
+  createIntersectionObserver,
+  getCurrentInstance,
+} from '@tarojs/taro'
 import { isNumber, isObject, isString } from './type'
 
 export function parse(str: string, decode = true): any {
@@ -249,5 +255,20 @@ export function resizeTextarea(
     input.style.height = `${height}px`
     // https://github.com/youzan/vant/issues/9178
     setRootScrollTop(scrollTop)
+  }
+}
+
+export const createContentObserver = (options: {
+  /** 初始的相交比例，如果调用时检测到的相交比例与这个值不相等且达到阈值，则会触发一次监听器的回调函数。 */
+  initialRatio?: number
+  /** 是否同时观测多个目标节点（而非一个），如果设为 true ，observe 的 targetSelector 将选中多个节点（注意：同时选中过多节点将影响渲染性能） */
+  observeAll?: boolean
+  /** 一个数值数组，包含所有阈值。 */
+  thresholds?: number[]
+}) => {
+  if (process.env.TARO_ENV === 'weapp') {
+    return createIntersectionObserver(getCurrentInstance().page!, options)
+  } else {
+    return createIntersectionObserver(null as any, options)
   }
 }
