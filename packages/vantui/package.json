@@ -1,5 +1,5 @@
 {
-  "name": "@antmjs/vantui",
+  "name": "@kokoro/antmjs-vantui",
   "version": "3.5.4",
   "main": "lib/index.js",
   "module": "es/index.js",
