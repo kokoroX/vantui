@@ -1,6 +1,6 @@
 {
   "name": "@kokoro/antmjs-vantui",
-  "version": "3.5.5-beta.1",
+  "version": "3.5.5-beta.2",
   "main": "lib/index.js",
   "module": "es/index.js",
   "style": "lib/index.css",
@@ -72,5 +72,6 @@
     "prettier": "^2.8.7",
     "style-resources-loader": "^1.5.0",
     "swc-loader": "^0.2.3"
-  }
+  },
+  "gitHead": "d30fed162a154e0fa11714058bb1c8726523bb79"
 }
