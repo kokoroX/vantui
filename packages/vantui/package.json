@@ -1,6 +1,6 @@
 {
   "name": "@kokoro/antmjs-vantui",
-  "version": "3.5.5-beta.4",
+  "version": "3.5.5-beta.5",
   "main": "lib/index.js",
   "module": "es/index.js",
   "style": "lib/index.css",
@@ -72,7 +72,7 @@
     "swc-loader": "^0.2.3"
   },
   "peerDependencies": {
-    "@tarojs/components": "*",
+    "@tarojs/components": "npm:@tarojs/components-react@*",
     "@tarojs/taro": "*"
   },
   "gitHead": "d30fed162a154e0fa11714058bb1c8726523bb79"
