@@ -1,6 +1,6 @@
 {
   "name": "@kokoro/antmjs-vantui",
-  "version": "3.5.5-beta.8",
+  "version": "3.5.5-beta.9",
   "main": "lib/index.js",
   "module": "es/index.js",
   "style": "lib/index.css",
@@ -79,5 +79,5 @@
     "@tarojs/components-react": "*",
     "@tarojs/taro": "*"
   },
-  "gitHead": "0ea45071b1704a26d25f1498d342a031d2a684ba"
+  "gitHead": "ca7ca22b30336594289b48e85aa893721a6c8785"
 }
