@@ -40,13 +40,13 @@ function tabStyle(data: any) {
 
 function navStyle(color: any, type: any) {
   return style({
-    'border-color': type === 'card' && color ? color : null,
+    borderColor: type === 'card' && color ? color : null,
   })
 }
 
 function trackStyle(data: any) {
   if (!data.animated) {
-    return ''
+    return {}
   }
 
   return style({
