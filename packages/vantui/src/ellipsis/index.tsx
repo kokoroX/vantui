@@ -115,7 +115,7 @@ export default function Ellipsis({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [children])
 
-  useReady(() => {
+  useReady?.(() => {
     setTimeout(() => {
       getAllWidth()
     }, 100)

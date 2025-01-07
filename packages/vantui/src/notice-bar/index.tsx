@@ -62,7 +62,7 @@ export function NoticeBar(props: NoticeBarProps) {
     })
   }, [])
 
-  useReady(() => {
+  useReady?.(() => {
     if (process.env.TARO_ENV !== 'h5') {
       ref.current.resetAnimation = createAnimation({
         duration: 0,
