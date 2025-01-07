@@ -1,6 +1,6 @@
 {
   "name": "@kokoro/antmjs-vantui-cli",
-  "version": "3.5.5-beta.12",
+  "version": "3.5.5-beta.13",
   "private": true,
   "type": "module",
   "main": "dest/cli.js",
