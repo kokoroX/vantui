@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { TransitionPropsCom } from '../../types/transition'
 import * as utils from '../wxs/utils'
 import * as computed from './wxs'

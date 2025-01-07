@@ -13,7 +13,7 @@ import {
   ScrollView,
   BaseEventOrig,
   ScrollViewProps,
-} from '@tarojs/components'
+} from '@tarojs/components-react'
 import { nextTick } from '@tarojs/taro'
 import { getRect, addUnit } from '../common/utils'
 import { IVirtualListProps, IVirtualListInstance } from '../../types/index'

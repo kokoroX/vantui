@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text } from '@tarojs/components'
+import { View, Text } from '@tarojs/components-react'
 
 const prefixCls = 'vant-form'
 type Iprops = {

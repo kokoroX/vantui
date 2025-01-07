@@ -1,5 +1,5 @@
 import React, { useRef, useMemo, useCallback } from 'react'
-import { View, Text } from '@tarojs/components'
+import { View, Text } from '@tarojs/components-react'
 import classNames from 'classnames'
 import { NumberKeyboardProps } from '../../types/number-keyboard'
 import { Icon } from '../icon'

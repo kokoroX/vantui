@@ -1,4 +1,4 @@
-import { View, Input } from '@tarojs/components'
+import { View, Input } from '@tarojs/components-react'
 import {
   useCallback,
   useEffect,

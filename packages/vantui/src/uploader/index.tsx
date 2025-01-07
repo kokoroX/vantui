@@ -4,7 +4,7 @@ import {
   openDocument,
 } from '@tarojs/taro'
 import { useState, useEffect, useCallback, useMemo } from 'react'
-import { View, Text, Image, Video, ITouchEvent } from '@tarojs/components'
+import { View, Text, Image, Video, ITouchEvent } from '@tarojs/components-react'
 
 import { UploaderProps } from '../../types/uploader'
 import VanLoading from '../loading/index'

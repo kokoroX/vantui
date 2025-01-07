@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect, useMemo } from 'react'
-import { View, Text } from '@tarojs/components'
+import { View, Text } from '@tarojs/components-react'
 import { Loading } from '../loading'
 import { getRect } from '../common/utils'
 import { IPullToRefreshProps } from '../../types/index'

@@ -1,4 +1,4 @@
-import { View, Button } from '@tarojs/components'
+import { View, Button } from '@tarojs/components-react'
 import { useCallback } from 'react'
 import * as computed from './wxs'
 import Options from './options'

@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { Input, View } from '@tarojs/components'
+import { Input, View } from '@tarojs/components-react'
 import { Dialog, Cell } from '@antmjs/vantui'
 
 const Dialog_ = Dialog.createOnlyDialog()

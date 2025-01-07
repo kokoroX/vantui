@@ -1,5 +1,5 @@
-import { Picker, PickerProps } from '@antmjs/vantui'
 import { useState } from 'react'
+import { Picker, PickerProps } from '../../..'
 import { data } from './data'
 
 export default function Demo() {

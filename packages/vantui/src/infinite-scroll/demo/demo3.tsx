@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { View, Image as TaroImage, Text } from '@tarojs/components'
+import { View, Image as TaroImage, Text } from '@tarojs/components-react'
 import { InfiniteScroll, InfiniteScrollProps } from '@antmjs/vantui'
 import * as COMMON from './common'
 

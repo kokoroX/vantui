@@ -1,4 +1,4 @@
-import { View, Text, Image } from '@tarojs/components'
+import { View, Text, Image } from '@tarojs/components-react'
 import { useEffect, useState } from 'react'
 import * as utils from '../wxs/utils'
 import { jumpLink } from '../common/jumpLink'

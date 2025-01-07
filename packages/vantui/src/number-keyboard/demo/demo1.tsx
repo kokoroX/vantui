@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { Input } from '@tarojs/components'
+import { Input } from '@tarojs/components-react'
 import { Cell, NumberKeyboard, Toast } from '@antmjs/vantui'
 
 export default function Demo() {

@@ -1,4 +1,4 @@
-import { View, Text, RichText } from '@tarojs/components'
+import { View, Text, RichText } from '@tarojs/components-react'
 import { useState } from 'react'
 import { ToastProps } from '../../types/toast'
 import VanTransition from '../transition/index'

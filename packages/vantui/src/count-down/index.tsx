@@ -6,7 +6,7 @@ import {
   useImperativeHandle,
   useCallback,
 } from 'react'
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { CountDownProps, ICountDownRef } from '../../types/count-down'
 import { isSameSecond, parseFormat, parseTimeData } from './util'
 

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { CheckList, CheckListProps, Button } from '@antmjs/vantui'
+import { CheckList, CheckListProps, Button } from '../../..'
 import { options } from './options'
 
 export default function Demo() {

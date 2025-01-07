@@ -5,7 +5,7 @@ import {
   getUserProfile as TaroGetUserProfile,
   getUserInfo as TaroGetUserInfo,
 } from '@tarojs/taro'
-import { ButtonProps, CommonEventFunction } from '@tarojs/components'
+import { ButtonProps, CommonEventFunction } from '@tarojs/components-react'
 import { Button } from '../button'
 
 declare const my: any

@@ -1,6 +1,6 @@
 import { createAnimation, useReady, nextTick } from '@tarojs/taro'
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { View, Navigator, ITouchEvent } from '@tarojs/components'
+import { View, Navigator, ITouchEvent } from '@tarojs/components-react'
 
 import * as utils from '../wxs/utils'
 import { NoticeBarProps } from '../../types/notice-bar'

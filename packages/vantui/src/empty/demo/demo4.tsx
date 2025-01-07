@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { Empty, Button } from '@antmjs/vantui'
 
 export default function Demo() {

@@ -1,5 +1,5 @@
-import { View } from '@tarojs/components'
-import { Picker, Button, Form, FormItem } from '@antmjs/vantui'
+import { View } from '@tarojs/components-react'
+import { Picker, Button, Form, FormItem } from '../../..'
 
 const columns = [
   {

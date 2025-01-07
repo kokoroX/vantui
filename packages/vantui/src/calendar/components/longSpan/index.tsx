@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { Button } from '../../../button'
 
 type IProps = {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { ScrollView } from '@tarojs/components'
+import { ScrollView } from '@tarojs/components-react'
 import { nextTick } from '@tarojs/taro'
 
 type Iprops = {

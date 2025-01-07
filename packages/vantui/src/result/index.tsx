@@ -1,4 +1,4 @@
-import { View, Text } from '@tarojs/components'
+import { View, Text } from '@tarojs/components-react'
 import { Icon } from '../icon'
 import { IResultProps } from '../../types/result'
 

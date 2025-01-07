@@ -58,6 +58,9 @@
     "use-deep-compare-effect": "^1.8.1"
   },
   "devDependencies": {
+    "@tarojs/components": "^3.6.35",
+    "@tarojs/components-react": "^3.6.35",
+    "@tarojs/taro": "^3.6.35",
     "@antmjs/doc": "^2.3.28",
     "@antmjs/iconfont": "^2.3.20",
     "@antmjs/types": "^2.3.28",
@@ -72,7 +75,8 @@
     "swc-loader": "^0.2.3"
   },
   "peerDependencies": {
-    "@tarojs/components": "npm:@tarojs/components-react@*",
+    "@tarojs/components": "*",
+    "@tarojs/components-react": "*",
     "@tarojs/taro": "*"
   },
   "gitHead": "0ea45071b1704a26d25f1498d342a031d2a684ba"

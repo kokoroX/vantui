@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import React, { useCallback, useEffect, useState } from 'react'
 import { PaginationProps } from '../../types/pagination'
 

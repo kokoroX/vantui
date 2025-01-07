@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import classNames from 'classnames'
 import { Icon } from '../icon'
 import { Loading } from '../loading'

@@ -1,6 +1,6 @@
 import { areaList } from '@vant/area-data'
-import { View } from '@tarojs/components'
-import { Button, Area, Form, FormItem } from '@antmjs/vantui'
+import { View } from '@tarojs/components-react'
+import { Button, Area, Form, FormItem } from '../../..'
 
 export default function Demo() {
   const formIt = Form.useForm()

@@ -1,5 +1,5 @@
-import { Picker, PickerProps } from '@antmjs/vantui'
 import { useState } from 'react'
+import { Picker, PickerProps } from '../../..'
 
 const columns = ['杭州', '宁波', '温州', '嘉兴', '湖州']
 export default function Demo() {

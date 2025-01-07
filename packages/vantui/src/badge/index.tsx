@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { BadgeProps } from '../../types/badge'
 
 const classPrefix = `van-badge`

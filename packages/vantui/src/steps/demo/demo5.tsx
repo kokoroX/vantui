@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { Steps, type Step } from '@antmjs/vantui'
 
 const steps: Step[] = [

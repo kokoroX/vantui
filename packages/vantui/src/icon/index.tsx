@@ -1,4 +1,4 @@
-import { View, Image } from '@tarojs/components'
+import { View, Image } from '@tarojs/components-react'
 import * as utils from '../wxs/utils'
 import { IconProps } from '../../types/icon'
 import { Info } from '../info/index'

@@ -1,6 +1,6 @@
 import { Children, useMemo } from 'react'
 import classNames from 'classnames'
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { SpaceProps } from '../../types/space'
 
 const classPrefix = `van-space`

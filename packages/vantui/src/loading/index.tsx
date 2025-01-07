@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { useState } from 'react'
 import * as utils from '../wxs/utils'
 import { LoadingProps } from '../../types/loading'

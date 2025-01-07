@@ -8,7 +8,7 @@ import {
   useImperativeHandle,
 } from 'react'
 import Taro from '@tarojs/taro'
-import { View, Canvas } from '@tarojs/components'
+import { View, Canvas } from '@tarojs/components-react'
 import { ISignatureProps, ISignatureInstance } from '../../types/signature'
 import { requestAnimationFrame } from '../common/utils'
 

@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { useMemo, cloneElement } from 'react'
 import toArray from 'rc-util/lib/Children/toArray'
 import classNames from 'classnames'

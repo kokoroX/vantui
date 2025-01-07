@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { Tabs, Tab, Toast } from '@antmjs/vantui'
 
 export default function Demo() {

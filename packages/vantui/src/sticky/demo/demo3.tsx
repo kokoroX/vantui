@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { createSelectorQuery } from '@tarojs/taro'
 import { Sticky, Button } from '@antmjs/vantui'
 

@@ -3324,6 +3324,11 @@
   resolved "https://registry.npmmirror.com/@sindresorhus/is/-/is-0.7.0.tgz"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
+"@stencil/core@^2.22.2":
+  version "2.22.3"
+  resolved "https://registry.npmmirror.com/@stencil/core/-/core-2.22.3.tgz#83987e20bba855c450f6d6780e3a20192603f13f"
+  integrity sha512-kmVA0M/HojwsfkeHsifvHVIYe4l5tin7J5+DLgtl8h6WWfiMClND5K3ifCXXI2ETDNKiEk21p6jql3Fx9o2rng==
+
 "@stencil/core@~2.13.0":
   version "2.13.0"
   resolved "https://registry.npmmirror.com/@stencil/core/-/core-2.13.0.tgz"
@@ -3502,6 +3507,15 @@
     "@babel/runtime" "^7.14.5"
     "@tarojs/runtime" "3.5.7"
 
+"@tarojs/api@3.6.35":
+  version "3.6.35"
+  resolved "https://registry.npmmirror.com/@tarojs/api/-/api-3.6.35.tgz#45bfa3046af747255aa57d21e56f2b5532fff096"
+  integrity sha512-RTyI09J2kgQBhjd0H/JtFsWygFIGYUFly88qm+ozQWxsgr9BTOSDpb94eQ/i9OZNFEXxGk8EGk1aLeoqKYOSaw==
+  dependencies:
+    "@babel/runtime" "^7.14.5"
+    "@tarojs/runtime" "3.6.35"
+    "@tarojs/shared" "3.6.35"
+
 "@tarojs/cli@3.5.7":
   version "3.5.7"
   resolved "https://registry.npmmirror.com/@tarojs/cli/-/cli-3.5.7.tgz"
@@ -3546,6 +3560,30 @@
     xml2js "^0.4.19"
     xxhashjs "^0.2.2"
 
+"@tarojs/components-advanced@3.6.35":
+  version "3.6.35"
+  resolved "https://registry.npmmirror.com/@tarojs/components-advanced/-/components-advanced-3.6.35.tgz#49946e438b57a1f454d8591e72fe3130da430dc0"
+  integrity sha512-siUASvMvfPDO23tqh9KZyMQJrxDvVNVz6pKuipv015GOKFHkYUqWbVPG0qXgWvnkV+3SN/ZPLv6H78D2AYW7RA==
+  dependencies:
+    "@tarojs/components" "3.6.35"
+    classnames "^2.2.5"
+    csstype "^3.1.1"
+    memoize-one "^6.0.0"
+    postcss "^8.4.18"
+    tslib "^2.6.2"
+
+"@tarojs/components-react@^3.6.35":
+  version "3.6.35"
+  resolved "https://registry.npmmirror.com/@tarojs/components-react/-/components-react-3.6.35.tgz#705f9c8b2d51550e635028c125d5ec62d3422712"
+  integrity sha512-mo28C6zw1jsisN7iZcCjaAl5fCaz1axBLu8EuXFEzLXO4yxmd+DS71zNMnCdcwXuIyQA3mCxHuyjXz1mq4YTQA==
+  dependencies:
+    "@babel/runtime" "^7.14.5"
+    "@tarojs/components" "3.6.35"
+    "@tarojs/taro" "3.6.35"
+    classnames "^2.2.5"
+    swiper "6.8.0"
+    tslib "^2.6.2"
+
 "@tarojs/components@3.5.7":
   version "3.5.7"
   resolved "https://registry.npmmirror.com/@tarojs/components/-/components-3.5.7.tgz"
@@ -3562,6 +3600,21 @@
     resolve-pathname "^3.0.0"
     swiper "6.8.0"
     weui "^1.1.2"
+
+"@tarojs/components@3.6.35", "@tarojs/components@^3.6.35":
+  version "3.6.35"
+  resolved "https://registry.npmmirror.com/@tarojs/components/-/components-3.6.35.tgz#c77fbcfee1c765a11d298d326d3ae5699c1b61b6"
+  integrity sha512-zA11kn88LJYQxuNL+8PlLjU7xz9M8YxIo2qXVQmwrU5aXyZALIYaVhoaZ5/kRQEioJU+Cr9p4psP6J95FiBB9w==
+  dependencies:
+    "@stencil/core" "^2.22.2"
+    "@tarojs/components-advanced" "3.6.35"
+    "@tarojs/taro" "3.6.35"
+    classnames "^2.2.5"
+    hammerjs "^2.0.8"
+    hls.js "^1.1.5"
+    resolve-pathname "^3.0.0"
+    swiper "6.8.0"
+    tslib "^2.6.2"
 
 "@tarojs/helper@3.5.7":
   version "3.5.7"
@@ -3705,6 +3758,14 @@
     "@tarojs/shared" "3.5.7"
     lodash-es "4.17.21"
 
+"@tarojs/runtime@3.6.35":
+  version "3.6.35"
+  resolved "https://registry.npmmirror.com/@tarojs/runtime/-/runtime-3.6.35.tgz#f807b3278dc412681c1081793da5d1edaf881482"
+  integrity sha512-W8DbKfsChflWoSplYYf8IcWEemjPt6lwTATJn0YzLqSAWhtVfsQ8I5+Dw8qZVzdBxUwJI6WEywOgDgfxUQ0EEg==
+  dependencies:
+    lodash-es "4.17.21"
+    tslib "^2.6.2"
+
 "@tarojs/service@3.5.7":
   version "3.5.7"
   resolved "https://registry.npmmirror.com/@tarojs/service/-/service-3.5.7.tgz"
@@ -3724,6 +3785,11 @@
   version "3.5.7"
   resolved "https://registry.npmmirror.com/@tarojs/shared/-/shared-3.5.7.tgz"
   integrity sha512-AkYvkydXWlQ52YCyFDSyFv7SebvSOZxDNtod+LG7hpxFEl3Xh5OmMBZGRU1IE6hABRmIUbcfZZhExqYNyEBSCw==
+
+"@tarojs/shared@3.6.35":
+  version "3.6.35"
+  resolved "https://registry.npmmirror.com/@tarojs/shared/-/shared-3.6.35.tgz#dd673674f7ab0c8229251cd797036557fcf9ccac"
+  integrity sha512-QqqxEtGAD9QMl62iXHANMYvKntEnx5srdr7xEqOYt21UJode81yv05eIyQ8NEOdmtXXkHJuzXPxivldSSTVDIg==
 
 "@tarojs/taro-h5@3.5.7":
   version "3.5.7"
@@ -3754,6 +3820,13 @@
   dependencies:
     "@tarojs/api" "3.5.7"
     "@tarojs/runtime" "3.5.7"
+
+"@tarojs/taro@3.6.35", "@tarojs/taro@^3.6.35":
+  version "3.6.35"
+  resolved "https://registry.npmmirror.com/@tarojs/taro/-/taro-3.6.35.tgz#bbc055c81f4e10f99da213d662c00ec4908bbf62"
+  integrity sha512-yT75itfSXwNN6yHgSm0R1M1QXBfiuhFSd16J3PC39uqGwBMshhkWtEqE1zRBhzHK/sIi4Npjrvo3pnYsHIaCKA==
+  dependencies:
+    "@tarojs/api" "3.6.35"
 
 "@tarojs/taroize@3.5.7":
   version "3.5.7"
@@ -10297,6 +10370,11 @@ graphql-ws@5.12.1:
   resolved "https://registry.npmmirror.com/graphql-ws/-/graphql-ws-5.12.1.tgz"
   integrity sha512-umt4f5NnMK46ChM2coO36PTFhHouBrK9stWWBczERguwYrGnPNxJ9dimU6IyOBfOkC6Izhkg4H8+F51W/8CYDg==
 
+hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.npmmirror.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+  integrity sha512-tSQXBXS/MWQOn/RKckawJ61vvsDpCom87JgxiYdGwHdOa0ht0vzUWDlfioofFCRU0L+6NGDt6XzbgoJvZkMeRQ==
+
 handle-thing@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmmirror.com/handle-thing/-/handle-thing-2.0.1.tgz"
@@ -12726,6 +12804,11 @@ memfs@^3.4.3:
   integrity sha512-UWbFJKvj5k+nETdteFndTpYxdeTMox/ULeqX5k/dpaQJCCFmj5EeKv3dBcyO2xmkRAx2vppRu5dVG7SOtsGOzA==
   dependencies:
     fs-monkey "^1.0.3"
+
+memoize-one@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmmirror.com/memoize-one/-/memoize-one-6.0.0.tgz#b2591b871ed82948aee4727dc6abceeeac8c1045"
+  integrity sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==
 
 memorystream@^0.3.1:
   version "0.3.1"
@@ -17683,6 +17766,11 @@ tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.3
   version "2.5.0"
   resolved "https://registry.npmmirror.com/tslib/-/tslib-2.5.0.tgz"
   integrity sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==
+
+tslib@^2.6.2:
+  version "2.8.1"
+  resolved "https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tsutils@^3.21.0:
   version "3.21.0"

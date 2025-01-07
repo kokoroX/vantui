@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { DatetimePicker } from '@antmjs/vantui'
+import { DatetimePicker } from '..'
 
 export default function Demo() {
   const [state, setState] = react.useState({

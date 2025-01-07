@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import * as utils from '../wxs/utils'
 import { getRect } from '../common/utils'
 import { isDef } from '../common/validator'

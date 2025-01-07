@@ -1,4 +1,4 @@
-import { Picker } from '@antmjs/vantui'
+import { Picker } from '..'
 
 const columns = ['杭州', '宁波', '温州', '嘉兴', '湖州']
 export default function Demo() {

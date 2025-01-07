@@ -1,5 +1,5 @@
 import { cloneElement, isValidElement } from 'react'
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import toArray from 'rc-util/lib/Children/toArray'
 import * as utils from '../wxs/utils'
 import { GoodsActionProps } from '../../types/goods-action'

@@ -1,5 +1,5 @@
 import { nextTick } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import { View, Text } from '@tarojs/components-react'
 import {
   useState,
   useCallback,

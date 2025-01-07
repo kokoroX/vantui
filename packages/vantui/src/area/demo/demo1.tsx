@@ -1,4 +1,4 @@
-import { Area } from '@antmjs/vantui'
+import { Area } from '..'
 
 export default function Demo() {
   const areaList = {

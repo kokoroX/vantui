@@ -17,7 +17,7 @@ import {
   useDidShow,
   useDidHide,
 } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import { View, Text } from '@tarojs/components-react'
 import { SwiperProps, SwiperInstance } from '../../types/swiper'
 import { getDirection } from './utils'
 

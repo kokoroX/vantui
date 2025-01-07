@@ -1,4 +1,4 @@
-import { Canvas, View } from '@tarojs/components'
+import { Canvas, View } from '@tarojs/components-react'
 import { nextTick } from '@tarojs/taro'
 import classNames from 'classnames'
 import { FC, useEffect, useState, useCallback } from 'react'

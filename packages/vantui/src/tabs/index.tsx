@@ -10,7 +10,7 @@ import {
   useCallback,
 } from 'react'
 import toArray from 'rc-util/lib/Children/toArray'
-import { View, ScrollView } from '@tarojs/components'
+import { View, ScrollView } from '@tarojs/components-react'
 import * as utils from '../wxs/utils'
 import { isDef } from '../common/validator'
 import { Sticky } from '../sticky/index'

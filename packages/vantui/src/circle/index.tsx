@@ -1,6 +1,6 @@
 import { createCanvasContext, createSelectorQuery } from '@tarojs/taro'
 import { useRef, useState, useEffect, useCallback } from 'react'
-import { View, Canvas } from '@tarojs/components'
+import { View, Canvas } from '@tarojs/components-react'
 import { Current } from '@tarojs/runtime'
 import { CircleProps } from '../../types/circle'
 import { isObj } from '../common/validator'

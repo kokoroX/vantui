@@ -3,7 +3,7 @@ type EventNames = 'alert' | 'close' | 'stopLoading' | 'confirm' | 'cancel'
 
 const events = new Events()
 
-function trigger(eventName: EventNames, ...args: any[]): boolean {
+function trigger(eventName: EventNames, ...args: any[]) {
   return events.trigger(eventName, ...args)
 }
 

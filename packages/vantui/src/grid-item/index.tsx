@@ -1,4 +1,4 @@
-import { View, Text } from '@tarojs/components'
+import { View, Text } from '@tarojs/components-react'
 import { useState, useEffect, useCallback } from 'react'
 import { GridItemProps } from '../../types/grid'
 import { jumpLink } from '../common/jumpLink'

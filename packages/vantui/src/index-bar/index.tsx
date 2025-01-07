@@ -1,4 +1,4 @@
-import { View, ITouch } from '@tarojs/components'
+import { View, ITouch } from '@tarojs/components-react'
 import {
   useCallback,
   useState,

@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { ConfigProviderProps } from '../../types/config-provider'
 import * as utils from '../wxs/utils'
 import * as computed from './wxs'

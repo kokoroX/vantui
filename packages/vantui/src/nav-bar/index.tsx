@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import * as utils from '../wxs/utils'
 import { getSystemInfoSync } from '../common/utils'
 import { NavBarProps } from '../../types/nav-bar'

@@ -2,7 +2,7 @@
 import { pxTransform } from '@tarojs/taro'
 import classnames from 'classnames'
 import useDeepCompareEffect from 'use-deep-compare-effect'
-import { ScrollView, Text, View } from '@tarojs/components'
+import { ScrollView, Text, View } from '@tarojs/components-react'
 import React, { memo, useCallback, useEffect, useState, useMemo } from 'react'
 import { IColumns, ITableProps } from '../../types/table'
 import { Loading } from '../loading'

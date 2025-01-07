@@ -1,6 +1,6 @@
 import react from 'react'
 import { areaList } from '@vant/area-data'
-import { Area } from '@antmjs/vantui'
+import { Area } from '..'
 
 export default function Demo() {
   const [value, setValue] = react.useState('')

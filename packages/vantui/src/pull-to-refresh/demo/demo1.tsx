@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { PullToRefresh, IPullToRefreshProps } from '@antmjs/vantui'
 
 export default function Demo() {

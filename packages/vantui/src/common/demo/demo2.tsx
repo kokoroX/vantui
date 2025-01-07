@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 
 export default function Demo() {
   return (

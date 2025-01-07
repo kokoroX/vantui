@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { View, Text, ITouchEvent } from '@tarojs/components'
+import { View, Text, ITouchEvent } from '@tarojs/components-react'
 import { nextTick } from '@tarojs/taro'
 import * as utils from '../wxs/utils'
 import { NotifyProps } from '../../types/notify'

@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { Picker, PickerProps } from '@antmjs/vantui'
+import { Picker, PickerProps } from '../../..'
 import { citiesWithDistricts } from './options'
 import { useState } from 'react'
 

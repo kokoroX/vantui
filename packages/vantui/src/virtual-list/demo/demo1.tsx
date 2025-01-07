@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { View, Image as TaroImage, Text } from '@tarojs/components'
+import { View, Image as TaroImage, Text } from '@tarojs/components-react'
 import { VirtualList } from '@antmjs/vantui'
 import * as COMMON from './common'
 const data = COMMON.mockGoods()

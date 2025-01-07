@@ -1,5 +1,5 @@
-import { View } from '@tarojs/components'
-import { Button, DatetimePicker, Form, FormItem } from '@antmjs/vantui'
+import { View } from '@tarojs/components-react'
+import { Button, DatetimePicker, Form, FormItem } from '../../..'
 
 export default function Demo() {
   const formIt = Form.useForm()

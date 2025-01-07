@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { navigateTo } from '@tarojs/taro'
 import { Button, Notify } from '@antmjs/vantui'
 

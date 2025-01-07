@@ -10,7 +10,7 @@ import {
   useMemo,
 } from 'react'
 import useDeepCompareEffect from 'use-deep-compare-effect'
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { nextTick } from '@tarojs/taro'
 import classNames from 'classnames'
 import {

@@ -1,6 +1,6 @@
 import { nextTick } from '@tarojs/taro'
 import { useState, useEffect, useRef } from 'react'
-import { View, Textarea, Input } from '@tarojs/components'
+import { View, Textarea, Input } from '@tarojs/components-react'
 import * as utils from '../wxs/utils'
 import { FieldProps } from '../../types/field'
 import { Cell } from '../cell'

@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import * as utils from '../wxs/utils'
 import { CellGroupProps } from '../../types/cell'
 

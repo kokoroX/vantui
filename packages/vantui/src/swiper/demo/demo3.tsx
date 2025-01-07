@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import { Swiper, SwiperItem, Image } from '@antmjs/vantui'
 import * as COMMON from './common'
 

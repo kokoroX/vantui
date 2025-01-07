@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { View } from '@tarojs/components'
-import { CheckList, CheckListProps } from '@antmjs/vantui'
+import { View } from '@tarojs/components-react'
+import { CheckList, CheckListProps } from '../../..'
 import { options, statusArr } from './options'
 
 export default function Demo() {

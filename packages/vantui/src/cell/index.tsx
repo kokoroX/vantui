@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { View, ITouchEvent } from '@tarojs/components'
+import { View, ITouchEvent } from '@tarojs/components-react'
 import * as utils from '../wxs/utils'
 import { CellProps } from '../../types/cell'
 import { jumpLink } from '../common/jumpLink'

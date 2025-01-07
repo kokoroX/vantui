@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import * as utils from '../wxs/utils'
 import { DividerProps } from '../../types/divider'
 import * as computed from './wxs'

@@ -1,6 +1,6 @@
 import { nextTick } from '@tarojs/taro'
 import { useState, useEffect } from 'react'
-import { View } from '@tarojs/components'
+import { View } from '@tarojs/components-react'
 import * as utils from '../wxs/utils'
 import { ProgressProps } from '../../types/progress'
 import { getRect } from '../common/utils'
