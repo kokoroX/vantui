@@ -33,7 +33,7 @@ export function usePageScroll(scroller: any) {
       el.removeEventListener('scroll', listener)
     }
   }, [scroller])
-  useTaroPageScroll((e) => {
+  useTaroPageScroll?.((e) => {
     if (process.env.TARO_ENV === 'h5') return
     scroller(e)
   })
