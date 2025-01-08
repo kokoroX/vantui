@@ -118,7 +118,7 @@ function Button(props: ButtonProps) {
         {...others}
       ></TaroButton>
       {innerLoading && loadingMode === 'normal' ? (
-        <View style="display: flex">
+        <View style={{ display: 'flex' }}>
           <Loading
             className="loading-class"
             size={loadingSize}

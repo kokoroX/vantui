@@ -2,7 +2,7 @@ import { View, Text } from '@tarojs/components-react'
 import { Icon } from '../icon'
 import { IResultProps } from '../../types/result'
 
-export default function Index(props: IResultProps): JSX.Element {
+function Result(props: IResultProps): JSX.Element {
   const {
     className,
     title,
@@ -36,3 +36,7 @@ export default function Index(props: IResultProps): JSX.Element {
     </View>
   )
 }
+
+export default Result
+
+export { Result }
