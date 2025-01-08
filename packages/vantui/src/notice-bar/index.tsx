@@ -64,7 +64,7 @@ export function NoticeBar(props: NoticeBarProps) {
 
   useReady?.(() => {
     if (process.env.TARO_ENV !== 'h5') {
-      ref.current.resetAnimation = createAnimation({
+      ref.current.resetAnimation = createAnimation?.({
         duration: 0,
         timingFunction: 'linear',
       })
@@ -78,7 +78,7 @@ export function NoticeBar(props: NoticeBarProps) {
     }
   })
   useEffect(() => {
-    ref.current.resetAnimation = createAnimation({
+    ref.current.resetAnimation = createAnimation?.({
       duration: 0,
       timingFunction: 'linear',
     })
@@ -121,7 +121,7 @@ export function NoticeBar(props: NoticeBarProps) {
           return {
             ...state,
             animationData: ref.current.animation
-              .translateX(-ref.current.contentWidth)
+              ?.translateX(-ref.current.contentWidth)
               .step()
               .export(),
           }
@@ -157,7 +157,7 @@ export function NoticeBar(props: NoticeBarProps) {
             ref.current.contentWidth = contentRect.width
             ref.current.duration =
               ((wrapRect.width + contentRect.width) / speed) * 1000
-            ref.current.animation = createAnimation({
+            ref.current.animation = createAnimation?.({
               duration: ref.current.duration,
               timingFunction: 'linear',
               delay,
