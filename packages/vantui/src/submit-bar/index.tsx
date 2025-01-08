@@ -1,4 +1,4 @@
-import { View, Text } from '@tarojs/components-react'
+import { View, Text } from '@tarojs/components'
 import { useEffect, useState } from 'react'
 import { Icon } from '../icon'
 import { Button } from '../button'

@@ -1,5 +1,5 @@
 import type { IRegisterFormParams } from '../../types/form-render'
-import { Input } from '@tarojs/components-react'
+import { Input } from '@tarojs/components'
 import { Switch } from '../switch'
 import { Radio } from '../radio'
 import { RadioGroup } from '../radio-group'

@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import classNames from 'classnames'
 import * as utils from '../wxs/utils'
 import { ColProps } from '../../types/col'

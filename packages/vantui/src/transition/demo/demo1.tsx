@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react, { useEffect } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Cell, Transition } from '@antmjs/vantui'
 
 const animations = [

@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { ITouchEvent, View } from '@tarojs/components-react'
+import { ITouchEvent, View } from '@tarojs/components'
 
 import * as utils from '../wxs/utils'
 import { SwitchProps } from '../../types/switch'

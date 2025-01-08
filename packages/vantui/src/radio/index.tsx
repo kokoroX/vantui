@@ -1,4 +1,4 @@
-import { ITouchEvent, View } from '@tarojs/components-react'
+import { ITouchEvent, View } from '@tarojs/components'
 import { useState, useEffect, useCallback, useContext } from 'react'
 import * as utils from '../wxs/utils'
 import { RadioProps } from '../../types/radio'

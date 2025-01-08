@@ -8,7 +8,7 @@ import {
   useMemo,
 } from 'react'
 import toArray from 'rc-util/lib/Children/toArray'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import * as utils from '../wxs/utils'
 import { getRect } from '../common/utils'
 import { TabbarProps, TabbarItemProps } from '../../types/tabbar'

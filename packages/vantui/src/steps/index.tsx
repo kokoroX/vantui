@@ -1,4 +1,4 @@
-import { View, ITouchEvent } from '@tarojs/components-react'
+import { View, ITouchEvent } from '@tarojs/components'
 import { useCallback } from 'react'
 import * as utils from '../wxs/utils'
 import { GREEN, GRAY_DARK } from '../common/color'

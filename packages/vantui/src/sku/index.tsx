@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import classnames from 'classnames'
 import { SkuProps } from '../../types/sku'
 import { everyItemEqual } from './utils'

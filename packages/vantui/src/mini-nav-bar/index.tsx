@@ -1,6 +1,6 @@
 import { navigateBack, reLaunch } from '@tarojs/taro'
 import { useState, useEffect, useCallback, useMemo } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import * as utils from '../wxs/utils'
 import { Icon } from '../icon'
 import {

@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import React, { useState, useCallback, useEffect } from 'react'
 
 type ICalenarHeaderProps = {

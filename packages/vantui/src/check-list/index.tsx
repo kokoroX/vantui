@@ -5,7 +5,7 @@ import {
   useRef,
   useState,
 } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import classNames from 'classnames'
 import Popup from '../popup/index'
 import Search from '../search/index'

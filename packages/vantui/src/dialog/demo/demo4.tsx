@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { View, Input } from '@tarojs/components-react'
+import { View, Input } from '@tarojs/components'
 import { Dialog, Image, Cell } from '@antmjs/vantui'
 
 export default function Demo() {

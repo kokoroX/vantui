@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { BaseRecord, WaterfallFlowProps } from '../../types/waterfall-flow'
 import { useWaterfallAttributes } from './useWaterfallAttributes'
 import { WaterfallFlowItem } from './WaterfallFlowItem'

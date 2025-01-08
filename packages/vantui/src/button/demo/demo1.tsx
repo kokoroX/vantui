@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Button } from '@antmjs/vantui'
 
 Button.config({

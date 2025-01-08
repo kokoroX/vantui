@@ -1,4 +1,4 @@
-import { Text, View } from '@tarojs/components-react'
+import { Text, View } from '@tarojs/components'
 import React from 'react'
 import * as utils from '../wxs/utils'
 import { IndexAnchorProps } from './../../types/index-anchor'

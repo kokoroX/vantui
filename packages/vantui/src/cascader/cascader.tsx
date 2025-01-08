@@ -1,6 +1,6 @@
 /* eslint-disable import/no-named-as-default */
 import { useState, useEffect } from 'react'
-import { View, Text } from '@tarojs/components-react'
+import { View, Text } from '@tarojs/components'
 import Tab from '../tab'
 import Tabs from '../tabs'
 import Popup from '../popup'

@@ -1,5 +1,5 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
-import { View, Text } from '@tarojs/components-react'
+import { View, Text } from '@tarojs/components'
 import { createSelectorQuery, useReady } from '@tarojs/taro'
 import { EllipsisProps } from '../../types/ellipsis'
 import { getRect } from '../common/utils'

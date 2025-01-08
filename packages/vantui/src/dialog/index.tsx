@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { useState, useCallback, useEffect } from 'react'
 import { nextTick, useDidHide, useDidShow } from '@tarojs/taro'
 import { toPromise } from '../common/utils'

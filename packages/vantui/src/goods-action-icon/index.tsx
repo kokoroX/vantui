@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { Text, ITouchEvent } from '@tarojs/components-react'
+import { Text, ITouchEvent } from '@tarojs/components'
 import VanButton from '../button'
 import VanIcon from '../icon'
 import { jumpLink } from '../common/jumpLink'

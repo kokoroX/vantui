@@ -1,4 +1,4 @@
-import { Block } from '@tarojs/components-react'
+import { Block } from '@tarojs/components'
 import { IndexBar, IndexAnchor, Cell } from '@antmjs/vantui'
 
 const arr: string[] = []

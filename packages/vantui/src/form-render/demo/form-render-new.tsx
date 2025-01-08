@@ -1,6 +1,6 @@
 /* eslint-disable import/no-named-as-default-member */
 import react from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import {
   IMakeFormCompProps,
   IFormRenderItemProps,

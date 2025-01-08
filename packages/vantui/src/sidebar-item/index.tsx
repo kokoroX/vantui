@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { useCallback, useState, useEffect } from 'react'
 import * as utils from '../wxs/utils'
 import { SidebarItemProps } from '../../types/sidebar'

@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Button, Toast } from '@antmjs/vantui'
 
 const Toast_ = Toast.createOnlyToast()

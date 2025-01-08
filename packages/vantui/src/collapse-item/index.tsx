@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { nextTick } from '@tarojs/taro'
 import * as utils from '../wxs/utils'
 import { CollapseItemProps } from '../../types/collapse'

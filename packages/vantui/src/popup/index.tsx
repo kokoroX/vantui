@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { useState, useEffect, useCallback } from 'react'
 import * as utils from '../wxs/utils'
 import { PopupProps } from '../../types/popup'

@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { CellGroup, Cell } from '@antmjs/vantui'
 
 export default function Demo() {

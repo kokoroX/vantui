@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Cell, Popup } from '@antmjs/vantui'
 
 export default function Demo() {

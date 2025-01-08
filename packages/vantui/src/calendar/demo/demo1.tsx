@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react, { useEffect } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Cell, Calendar } from '@antmjs/vantui'
 
 export default function Demo() {

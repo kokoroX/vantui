@@ -1,7 +1,7 @@
 import type { ButtonProps } from '../../types/button.d'
 import { useState, useEffect, useCallback } from 'react'
 import { pxTransform } from '@tarojs/taro'
-import { Button as TaroButton, View } from '@tarojs/components-react'
+import { Button as TaroButton, View } from '@tarojs/components'
 import * as utils from '../wxs/utils'
 import { Icon } from '../icon/index'
 import { Loading } from '../loading/index'

@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Swiper, SwiperItem, Image } from '@antmjs/vantui'
 import * as COMMON from './common'
 

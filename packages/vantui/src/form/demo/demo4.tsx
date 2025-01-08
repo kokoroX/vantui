@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react, { useEffect, useState } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import {
   Form,
   FormItem,

@@ -1,6 +1,6 @@
 import { nextTick } from '@tarojs/taro'
 import { useState, useEffect, useRef } from 'react'
-import { View, Textarea, Input } from '@tarojs/components-react'
+import { View, Textarea, Input } from '@tarojs/components'
 import * as utils from '../wxs/utils'
 import { FieldProps } from '../../types/field'
 import { Cell } from '../cell'
@@ -297,7 +297,7 @@ export function Field(props: FieldProps) {
             onConfirm={_confirm}
             onLineChange={onLineChange}
             onKeyboardHeightChange={onKeyboardHeightChange}
-            showCount=""
+            showCount={false}
           ></Textarea>
         ) : (
           <Input

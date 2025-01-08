@@ -1,4 +1,4 @@
-import { View, Button, ITouchEvent } from '@tarojs/components-react'
+import { View, Button, ITouchEvent } from '@tarojs/components'
 import { useCallback } from 'react'
 import * as utils from '../wxs/utils'
 import { ActionSheetProps, ActionSheetItem } from '../../types/action-sheet'

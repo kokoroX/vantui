@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { SwiperItemProps } from '../../types/swiper'
 
 export const SwiperItem = (props: SwiperItemProps) => {

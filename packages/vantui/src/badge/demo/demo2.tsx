@@ -1,6 +1,6 @@
 /* eslint-disable */
 import { Badge } from '@antmjs/vantui'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 
 export default function Demo() {
   return (

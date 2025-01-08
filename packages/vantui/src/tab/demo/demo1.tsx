@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Tabs, Tab } from '@antmjs/vantui'
 
 export default function Demo() {

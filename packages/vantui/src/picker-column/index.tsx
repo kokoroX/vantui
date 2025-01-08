@@ -6,7 +6,7 @@ import {
   forwardRef,
   useRef,
 } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { nextTick } from '@tarojs/taro'
 import * as utils from '../wxs/utils'
 import { PickerColumnProps } from '../../types/picker-column'

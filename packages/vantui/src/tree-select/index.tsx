@@ -1,4 +1,4 @@
-import { View, ScrollView } from '@tarojs/components-react'
+import { View, ScrollView } from '@tarojs/components'
 import { useCallback, useState, useEffect } from 'react'
 import * as utils from '../wxs/utils'
 import VanSidebarItem from '../sidebar-item/index'

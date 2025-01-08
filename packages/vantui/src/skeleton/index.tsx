@@ -1,6 +1,6 @@
 import { pxTransform } from '@tarojs/taro'
 import { useState, useEffect } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import * as utils from '../wxs/utils'
 import { SkeletonProps } from '../../types/skeleton'
 

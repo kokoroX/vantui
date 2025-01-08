@@ -7,7 +7,7 @@ import {
   useEffect,
   useCallback,
 } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import useDeepCompareEffect from 'use-deep-compare-effect'
 import { FormItemProps, IFormInstanceAPI } from '../../types/form'
 import FormContext from '../form/core/formContext'

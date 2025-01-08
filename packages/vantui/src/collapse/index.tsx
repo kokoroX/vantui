@@ -6,7 +6,7 @@ import {
   useCallback,
   useEffect,
 } from 'react'
-import { ITouchEvent, View } from '@tarojs/components-react'
+import { ITouchEvent, View } from '@tarojs/components'
 
 import { CollapseProps } from '../../types/collapse'
 

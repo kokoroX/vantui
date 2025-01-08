@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Row, Col, Icon } from '@antmjs/vantui'
 
 export default function Demo() {

@@ -1,4 +1,4 @@
-import { View, Button, Image } from '@tarojs/components-react'
+import { View, Button, Image } from '@tarojs/components'
 import * as utils from '../wxs/utils'
 import * as computed from './wxs'
 import { ShareSheetOption } from './../../types/share-sheet'

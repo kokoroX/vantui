@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
-import { View, ITouchEvent } from '@tarojs/components-react'
+import { View, ITouchEvent } from '@tarojs/components'
 import * as utils from '../wxs/utils'
 import { Icon } from '../icon/index'
 import { getAllRect } from '../common/utils'

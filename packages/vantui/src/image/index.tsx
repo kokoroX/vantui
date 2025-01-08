@@ -5,7 +5,7 @@ import {
   useMemo,
   useLayoutEffect,
 } from 'react'
-import { View, Image as TaroImage } from '@tarojs/components-react'
+import { View, Image as TaroImage } from '@tarojs/components'
 import { ImageProps } from '../../types/image'
 import * as utils from '../wxs/utils'
 import VanIcon from '../icon/index'

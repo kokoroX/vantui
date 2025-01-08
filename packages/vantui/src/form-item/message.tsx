@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 
 type Iprops = {
   status?: 'reject' | 'pendding' | 'resolve'

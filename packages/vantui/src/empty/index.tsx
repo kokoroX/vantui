@@ -1,4 +1,4 @@
-import { View, Image } from '@tarojs/components-react'
+import { View, Image } from '@tarojs/components'
 import { EmptyProps } from '../../types/empty'
 import * as computed from './wxs'
 

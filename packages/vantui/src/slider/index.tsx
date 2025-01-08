@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react'
-import { ITouchEvent, View } from '@tarojs/components-react'
+import { ITouchEvent, View } from '@tarojs/components'
 import { nextTick } from '@tarojs/taro'
 import * as utils from '../wxs/utils'
 import { style } from '../wxs/style'

@@ -1,5 +1,5 @@
 import { useState, useLayoutEffect } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import * as utils from '../wxs/utils'
 import { TabProps } from '../../types/tab'
 

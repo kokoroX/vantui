@@ -1,5 +1,5 @@
 import { areaList } from '@vant/area-data'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Button, Area, Form, FormItem } from '../../..'
 
 export default function Demo() {

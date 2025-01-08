@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Table, ITableProps } from '@antmjs/vantui'
 
 const columns: ITableProps['columns'] = [

@@ -1,5 +1,5 @@
 /* eslint-disable import/no-named-as-default */
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { useState } from 'react'
 import Swiper from '../swiper'
 import SwiperItem from '../swiper-item'

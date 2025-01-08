@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { Text } from '@tarojs/components-react'
+import { Text } from '@tarojs/components'
 import { CountDown, ITimeData } from '@antmjs/vantui'
 
 export default function Demo() {

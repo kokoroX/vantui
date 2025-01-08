@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Card, Button } from '@antmjs/vantui'
 
 export default function Demo() {

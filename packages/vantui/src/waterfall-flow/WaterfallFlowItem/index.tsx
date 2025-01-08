@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo } from 'react'
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { BaseRecord } from '../../../types/waterfall-flow'
 import { OnRemove, OnResize } from '../useWaterfallAttributes'
 import { useForceUpdate, usePersistFn, useSubscribeElementSize } from '../hooks'

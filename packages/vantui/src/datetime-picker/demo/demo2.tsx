@@ -1,4 +1,4 @@
-import { View } from '@tarojs/components-react'
+import { View } from '@tarojs/components'
 import { Button, DatetimePicker, Form, FormItem } from '../../..'
 
 export default function Demo() {

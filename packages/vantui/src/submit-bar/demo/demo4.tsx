@@ -1,4 +1,4 @@
-import { View, Text } from '@tarojs/components-react'
+import { View, Text } from '@tarojs/components'
 import { SubmitBar, Tag } from '@antmjs/vantui'
 
 export default function Demo() {

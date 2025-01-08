@@ -1,4 +1,4 @@
-import { View, ScrollView, ITouchEvent } from '@tarojs/components-react'
+import { View, ScrollView, ITouchEvent } from '@tarojs/components'
 import {
   useState,
   useEffect,

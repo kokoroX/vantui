@@ -1,6 +1,6 @@
 /* eslint-disable */
 import react from 'react'
-import { View, Text } from '@tarojs/components-react'
+import { View, Text } from '@tarojs/components'
 import { WaterfallFlow } from '@antmjs/vantui'
 import * as COMMON from './common'
 export default function Demo() {
